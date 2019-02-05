@@ -111,6 +111,11 @@ class Magestore_Bannerslider_Helper_Data extends Mage_Core_Helper_Abstract {
                 'label' => $this->__('--------- Please choose style -------'),
                 'value' => ''
             ),
+			array(
+                'label' => $this->__('NCX'),
+                'value' => array(
+                    array('value' => '11', 'label' => $this->__('Slick NCX Slider')),
+                )),
             array(
                 'label' => $this->__('Special Slider'),
                 'value' => array(
