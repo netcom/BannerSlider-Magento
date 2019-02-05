@@ -88,6 +88,9 @@ class Magestore_Bannerslider_Block_Default extends Mage_Core_Block_Template {
             case "12":
                 $html = $this->getLayout()->createBlock('bannerslider/default')->setBlockData($result)->setTemplate('bannerslider/note.phtml')->toHtml();
                 break;
+			case "13":
+                $html = $this->getLayout()->createBlock('bannerslider/default')->setBlockData($result)->setTemplate('bannerslider/slider13.phtml')->toHtml();
+                break;
             default :
                 $html = '';
         }
