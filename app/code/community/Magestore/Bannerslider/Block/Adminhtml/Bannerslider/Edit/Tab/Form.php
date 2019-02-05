@@ -338,6 +338,12 @@ class Magestore_Bannerslider_Block_Adminhtml_Bannerslider_Edit_Tab_Form extends 
                                     url += "id/5";
                                     $(\'style-slide-view\').writeAttribute(\'href\', url);
                                     break;
+								case 11: 
+                                    activesomeField710();                                                                        
+									$(\'note_style_slide\').show();
+                                    url += "id/5";
+                                    $(\'style-slide-view\').writeAttribute(\'href\', url);
+                                    break;
                                 case 8: 
                                     activesomeField710();
 									$(\'note_style_slide\').show();
